@@ -1,0 +1,413 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.logo{
+    
+}
+
+.logo img{
+    width: 164px;
+    cursor: pointer;
+}
+
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span{
+    padding: 2px;
+}
+
+/* MIDDLE PART */
+
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 90px ;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.first span{
+    font-size: 50px;
+}
+
+section span img{
+    width: 110px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.para1{
+    font-size: 24px;
+    margin: 0px 150px;
+    text-align: center;
+    
+}
+
+.btn{
+
+ margin: -25px;
+ padding: 16px 0px;
+ width: 300px;
+ text-transform: uppercase;
+ background-color: #00b6d1;
+ color: white;
+ border: none;
+ border-radius: 6px;
+ font-weight:700 ;
+ cursor: pointer;
+ 
+}
+
+
+
+.second img{
+ width: 60px;
+ 
+}
+
+.second{
+    margin-top: 66px;
+    display: flex;  
+    margin-right: 340px;
+    margin-bottom: -10px;
+}
+
+.big{
+    margin-top: 12px;
+    margin-left: 18px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.small{
+margin-top: 22px;
+font-size: 13px;
+text-align: center;
+margin-left: 5px;
+}
+
+/* now boxes grid wala part */
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    /* margin: 2px 100px; */
+    text-align: center;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 280px;
+    margin: auto;
+    margin-top: 2px;
+    
+    
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.btngreen{
+margin: 0px 60px;
+padding: 8px;
+background-color: #5cb85c;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.altu{
+font-size: x-small;
+text-align: center;
+margin-top: -20px;
+margin-bottom: -25px ;
+cursor: pointer;
+}
+
+.faltu{
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.faltu2{
+    font-size: 8px;
+    margin-top: -24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.nicheka{
+    margin: -6px;
+   margin-top: -42px;
+   font-size: 12px;
+
+}
+
+/* blackwala part */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .newsletter-section {
+    background-color: #222222;; /* black background */
+    color: white;
+  
+    padding: 0px 40px; 
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 100vw;
+    margin: 15px;
+  }
+  
+  .newsletter-content {
+    max-width: 500px;
+    text-align: center;
+    margin-top: 185px;
+  }
+  
+  .signup-box {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .signup-box h3 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+   font-weight: 300;
+   font-size: 24px;
+   margin-top: 6px;
+  }
+  
+  .signup-box input {
+    width: 90%;
+    padding: 16px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .signup-box button {
+    width: 100%;
+    background-color: #00bcd4;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+
+    
+
+
+  }
+
+  .smallfont{
+    font-weight: 300;
+    font-size: smaller;
+    margin-top: 30px;
+  }
+
+  .downpara
+  {
+    margin: 30px 160px;
+    padding: 10px 90px;
+  }
+
+  .downpara h3{
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -50px;
+  }
+
+  .downpara h4{
+    font-weight: 200;
+    font-size: 24px;
+    margin: -3px;
+  }
+
+  .blue-text{
+   font-size: 10px;
+    color: #00b6d1;
+
+  }
+
+  .title{
+font-size:100;
+font-weight: bold;
+margin-bottom: 20px;
+  }
+  
+  .info{
+    display: grid;
+    grid-template-areas: "items-1 items-2 items-3 items-4 items-5";
+    grid-template-areas: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 55px;
+   gap: 50px;
+
+  }
+
+  .items-2{
+    justify-content: flex-start;
+    align-items:flex-start ;
+    margin-top: -55px;
+    
+    
+  }
+
+  .items-3{
+    justify-content: flex-start;
+    align-items:flex-start ;
+    margin-top: -112px;
+  }
+
+  .items-4{
+    justify-content: flex-start;
+    align-items:flex-start ;
+    margin-top: -35px;
+  }
+
+  .items-5{
+    justify-content: flex-start;
+    align-items:flex-start ;
+    margin-top: -82px;
+    
+  }
+
+
+
+  .items-5 input {
+    width: 90%;
+    padding: 13px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8PX;
+    
+  }
+  
+  .items-5 button {
+    width: 100%;
+    background-color: #00bcd4;
+    color: white;
+    padding: 13px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+
+  /* footer part */
+
+
+.footer-bottom{
+    
+ display: flex;
+justify-content: space-evenly;
+text-align: end;
+margin: -10px 30px;
+  }
+
+  .logo{
+    margin-right: 600px;
+  }
+  
+  .social-icons {
+    cursor: pointer;
+    text-align: center;
+
+    margin-left: 80px;
+    text-decoration: none;
+    color: #444;
+    flex-direction: row;
+   
+    
+  }
+
+  .end{
+    margin-right: 800px;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+
+  @media  screen and (max-width: 900px) {
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 650px;   
+  }
+}
+
+
